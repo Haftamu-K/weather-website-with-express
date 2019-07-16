@@ -64,7 +64,6 @@ app.get('/Weather', (req, res) => {
                 location : data.location,
                 address : req.query.address,                
             });
-            console.log(data);
         });
     });
     
