@@ -4,7 +4,7 @@ const messageP = document.querySelector('#message-1');
 const messageLocation= document.querySelector('#message-2');
 
 const fetchWeather = (address) => {
-    const url = "http://localhost:3000/weather?address=" + encodeURIComponent(address);
+    const url = "/weather?address=" + encodeURIComponent(address);
     messageP.textContent = "Loading ..... ";
     messageLocation.textContent = '';
     
