@@ -13,7 +13,7 @@ const fetchWeather = (address) => {
             if(data.error)
                 messageP.textContent = data.error;
             else{
-                messageP.textContent = data.forcast;
+                messageP.textContent = data.forecast;
                 messageLocation.textContent = data.location;
             }
                 
